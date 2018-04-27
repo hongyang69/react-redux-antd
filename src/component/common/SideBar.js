@@ -7,7 +7,6 @@ import { Layout, Menu, Icon } from "antd";
 
 //Icon
 import BarChart from "react-icons/lib/fa/bar-chart";
-import Stethoscope from "react-icons/lib/fa/stethoscope";
 
 import { connect } from "react-redux";
 import _ from "lodash";
@@ -56,7 +55,7 @@ const SIDER_BAR = [
     roles: [ROLE_STAFF],
     content: (
       <span>
-        <Icon type="hdd" />
+        <Icon type="user" />
         {"staff"}
       </span>
     )
@@ -69,8 +68,8 @@ const SIDER_BAR = [
     roles: [ROLE_MANAGER],
     content: (
       <span>
-        <Stethoscope />
-        <IconName>{"manager"}</IconName>
+        <Icon type="user" />
+        {"manager"}
       </span>
     )
   }
