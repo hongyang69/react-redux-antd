@@ -195,13 +195,13 @@ class LoginForm extends React.Component {
           </FormItem>
           <Footer {...formItemLayout}>
             <Row type="flex" justify="center">
-              <FooterTitle span={"6"}>
+              <FooterTitle xs={0} sm={6}>
                 <a href="">Help</a>
               </FooterTitle>
-              <FooterTitle span={"6"}>
+              <FooterTitle xs={0} sm={6}>
                 <a href="">Privacy</a>
               </FooterTitle>
-              <FooterTitle span={"6"}>
+              <FooterTitle xs={0} sm={6}>
                 <a href="">Clause</a>
               </FooterTitle>
             </Row>
