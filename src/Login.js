@@ -14,7 +14,7 @@ import { userLogin } from "./modules/me";
 const Page = styled.div`
   background-image: url(${require("./images/bg_image.jpg")});
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   width: 100%;
   height: 100%;
   background-position: center;
