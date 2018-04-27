@@ -15,9 +15,6 @@ import UserListContainer from "../container/user/UserListContainer";
 import UserFormContainer from "../container/user/UserFormContainer";
 import Error from "./common/Error";
 
-//Icon
-import { LOGO } from "../component/common/Icons";
-
 import dispatchOnEnter from "../container/common/dispatchOnEnter";
 import {
   fetchUsers,
