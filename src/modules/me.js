@@ -47,7 +47,7 @@ export function userLogin({ username, password }) {
       console.log("login error : ", err);
       throw createError(USER_LOGIN_FAILURE, "");
     }
-  }, false);
+  });
 }
 
 export function userLogout() {
